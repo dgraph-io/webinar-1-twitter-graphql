@@ -47,7 +47,7 @@ type Hashtag {
 ```
 As you can see, we added `@search` directives to allow searching on those fields, and we added a `@hasInverse` directive to tell Dgraph that each of those fields represent the same relationship (User created Tweet).
 
-Here are some of the queries and mutations we ran:
+### Here are some of the queries and mutations we ran:
 
 Inserting a new user, with a tweet and mentions.
 ```graphql
